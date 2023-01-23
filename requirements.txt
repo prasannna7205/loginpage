@@ -1,0 +1,27 @@
+1-> First, we will need to create a new Django project using the command
+ "django-admin startproject projectname".
+
+ 2->Next, we will need to create a new app within the project using the command "python manage.py startapp appname".
+This app will contain the views, templates, and forms for the signup and login pages.
+
+3->In the models.py file of the app, we will need to define a model for the user information,
+ such as name, email, and password. This model will be used to create the database table and save user information.
+
+ 4->In the views.py file of the app, we will need to create views for the signup and login pages.
+These views will handle the logic for displaying the templates, 
+processing the forms, and saving user information to the database.
+
+5-> In the templates folder of the app, we will need to create template files for the signup and login pages.
+These templates will contain the HTML forms for collecting user information and displaying the message upon successful login.
+
+6->In the forms.py file of the app, we will need to create forms for the signup and login pages.
+These forms will handle the validation of user input and will be used in the views.
+
+7->In the urls.py file of the app, we will need to create url patterns for the signup and login pages.
+These patterns will map the URLs to the appropriate views.
+
+8->In the settings.py file of the project, we will need to configure the database and connect
+it to the project.
+9->Finally, in the views.py file of the app, we will need to add a message framework to display 
+the message "login successfuly" after successful login.
+
